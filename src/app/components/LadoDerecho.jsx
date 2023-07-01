@@ -26,7 +26,7 @@ export default function LadoDerecho() {
   };
 
   return (
-    <div className="h-full w-full xl:pr-56 p-10 xl:p-24 md:w-1/2 flex items-center flex-col justify-center content-between bg-white">
+    <div className="h-full w-full pt-15 lg:pt-0 xl:pr-56 p-10 xl:p-24 md:w-1/2 flex items-center flex-col justify-center content-between bg-white">
       <MDXProvider components={components}> {componetElement[indiceElement]}</MDXProvider>
       <ButtonGroup handleNavegacion={handleNavegacion} setIndiceElement={setIndiceElement}/>
     </div>
