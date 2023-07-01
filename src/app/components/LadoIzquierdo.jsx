@@ -7,7 +7,7 @@ import { HiMail } from "react-icons/hi";
 
 export default function LadoIzquiero() {
   return (
-    <section className="h-1/2 md:h-full w-full md:pr-56 p-24 md:w-1/2 flex items-center justify-center bg-gray-950">
+    <section className="h-full w-full md:pr-56 p-24 md:w-1/2 flex items-center justify-center bg-gray-950">
       <div className="flex flex-col gap-5">
         <h1 className="font-display text-4xl/tight font-bold text-white">
           Los mejores libros 📚 que debes leer{" "}
