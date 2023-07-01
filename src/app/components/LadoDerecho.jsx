@@ -10,7 +10,7 @@ const components = {
 
 export default function LadoDerecho() {
   return (
-    <div className="h-1/2 md:h-full w-full md:w-7/12 bg-white flex items-center justify-center">
+    <div className="h-full w-full xl:pr-56 p-10 xl:p-24 md:w-1/2 flex items-center justify-center bg-white">
       <MDXProvider components={components}>
         {" "}
         <Hello />
