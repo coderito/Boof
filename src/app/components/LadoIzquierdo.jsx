@@ -7,7 +7,7 @@ import { HiMail } from "react-icons/hi";
 
 export default function LadoIzquiero() {
   return (
-    <section className="h-full w-full md:pr-56 p-24 md:w-1/2 flex items-center justify-center bg-gray-950">
+    <section className="h-full w-full xl:pr-56 p-10 xl:p-24 md:w-1/2 flex items-center justify-center bg-gray-950">
       <div className="flex flex-col gap-5">
         <h1 className="font-display text-4xl/tight font-bold text-white">
           Los mejores libros 📚 que debes leer{" "}
@@ -17,7 +17,7 @@ export default function LadoIzquiero() {
           Encuentra los mejores 10 libros que debes leer para tu crecimineto
           personal
         </p>
-        <div class="flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
+        <div class="flex flex-wrap gap-x-1 gap-y-3 sm:gap-x-2 sm:justify-start">
           <a
             class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-3 flex-none"
             href="https://github.com/midudev/noticias.dev"
