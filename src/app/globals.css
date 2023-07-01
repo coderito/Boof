@@ -5,3 +5,15 @@
 h1, h2, h3, h4, h5, h6, p {
     color: #fff;
 }
+
+ul { 
+    padding: 1rem
+}
+
+li {
+    color: #4b5563;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    list-style-type: circle;
+    margin: 0.8rem;
+}
