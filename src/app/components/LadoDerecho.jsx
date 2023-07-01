@@ -1,20 +1,34 @@
 "use client";
 
-import Hello from "../content/hello.mdx";
+import PadreRicoPadrePobre from "../content/01-padre-rico-padre-pobre.mdx";
+import HabitosAtomicos from "../content/02-habitos-atomicos.mdx"
+import SiLoCreasLoCreas from "../content/03-si-lo-creas-lo-creas.mdx"
+
 import { H3 } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
+import ButtonGroup from "./ButtonGroup";
+import { useState } from "react";
 
 const components = {
   h3: H3,
 };
 
 export default function LadoDerecho() {
+  const componetElement = [<PadreRicoPadrePobre />, <HabitosAtomicos />, <SiLoCreasLoCreas/>];
+
+  const [indiceElement, setIndiceElement] = useState(0);
+
+  const handleNavegacion = (incremento) => {
+    const nuevoIndice = indiceElement + incremento;
+    if (nuevoIndice >= 0 && nuevoIndice < componetElement.length) {
+        setIndiceElement(nuevoIndice);
+    }
+  };
+
   return (
-    <div className="h-full w-full xl:pr-56 p-10 xl:p-24 md:w-1/2 flex items-center justify-center bg-white">
-      <MDXProvider components={components}>
-        {" "}
-        <Hello />
-      </MDXProvider>
+    <div className="h-full w-full xl:pr-56 p-10 xl:p-24 md:w-1/2 flex items-center flex-col justify-center content-between bg-white">
+      <MDXProvider components={components}> {componetElement[indiceElement]}</MDXProvider>
+      <ButtonGroup handleNavegacion={handleNavegacion} setIndiceElement={setIndiceElement}/>
     </div>
   );
 }
