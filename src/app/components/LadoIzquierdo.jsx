@@ -23,7 +23,7 @@ export default function LadoIzquiero() {
             href="https://github.com/midudev/noticias.dev"
           >
             <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-            <AiFillGithub className="h-4 w-4" />
+            <AiFillGithub className="h-5 w-5" />
             <span class="self-baseline text-white font-medium">GitHub</span>
           </a>
           <a
@@ -31,24 +31,15 @@ export default function LadoIzquiero() {
             href="/rss/feed.xml"
           >
             <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-            <AiFillLinkedin className="w-4 h-4" />
+            <AiFillLinkedin className="h-5 w-5" />
             <span class="self-baseline text-white font-medium">Linkedin</span>
           </a>
-
           <a
             class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-3 flex-none"
             href="/rss/feed.xml"
           >
             <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-            <AiFillTwitterCircle className="w-4 h-4" />
-            <span class="self-baseline text-white font-medium">Twitter</span>
-          </a>
-          <a
-            class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-3 flex-none"
-            href="/rss/feed.xml"
-          >
-            <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-            <HiMail className="w-4 h-4" />
+            <HiMail className="h-5 w-5" />
             <span class="self-baseline text-white font-medium">Correo</span>
           </a>
         </div>
