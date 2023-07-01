@@ -4,13 +4,13 @@ import PadreRicoPadrePobre from "../content/01-padre-rico-padre-pobre.mdx";
 import HabitosAtomicos from "../content/02-habitos-atomicos.mdx"
 import SiLoCreasLoCreas from "../content/03-si-lo-creas-lo-creas.mdx"
 
-import { H3 } from "../components-mdx/mdxComponents";
+import { H2 } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
 import ButtonGroup from "./ButtonGroup";
 import { useState } from "react";
 
 const components = {
-  h3: H3,
+  h2: H2,
 };
 
 export default function LadoDerecho() {

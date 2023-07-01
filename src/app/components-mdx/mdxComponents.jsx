@@ -1,3 +1,3 @@
-export const H3 = ({ children }) => {
-    return <h3 className="text-4xl font-bold">{children}</h3>;
+export const H2 = ({ children }) => {
+    return <h2 className="text-4xl tracking-wide font-medium">{children}</h2>;
   };
