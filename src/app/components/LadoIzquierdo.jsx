@@ -8,12 +8,12 @@ import { HiMail } from "react-icons/hi";
 export default function LadoIzquiero() {
   return (
     <section className="h-full w-full xl:pr-56 p-10 xl:p-24 md:w-1/2 flex items-center justify-center bg-gray-950">
-      <div className="flex flex-col gap-5">
-        <h1 className="font-display text-4xl/tight font-bold text-white">
+      <div className="flex flex-col gap-7">
+        <h1 className="font-display text-4xl leading-[2.8rem] font-bold text-white">
           Los mejores libros 📚 que debes leer{" "}
           <span className="text-yellow-300"> 1 vez en tu vida</span>
         </h1>
-        <p className="text-sm/tight font-medium   text-gray-300">
+        <p className="text-sm/tight font-medium leading-[1.4rem]   text-gray-300">
           Encuentra los mejores 10 libros que debes leer para tu crecimineto
           personal
         </p>
