@@ -1,7 +1,4 @@
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { HiMail } from "react-icons/hi";
 
 export default function LadoIzquiero() {
@@ -16,7 +13,7 @@ export default function LadoIzquiero() {
           Encuentra los mejores 10 libros que debes leer para tu crecimineto
           personal
         </p>
-        <div class="flex flex-wrap gap-x-1 gap-y-3 justi justify-start">
+        <div class="flex flex-wrap gap-x-1 gap-y-3 justify-center md:justify-start">
           <a
             class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-3 flex-none"
             href="https://github.com/midudev/noticias.dev"
@@ -42,6 +39,16 @@ export default function LadoIzquiero() {
             <span class="self-baseline text-white font-medium">Correo</span>
           </a>
         </div>
+        <div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-md cursor-pointer"
+                src="/img/img.jpg"
+                alt=""
+              />
+            </div>
+        </div>
+       
       </div>
     </section>
   );
