@@ -6,12 +6,11 @@ export default function LadoIzquiero() {
     <section className="h-screen w-full xl:pr-56 p-6 xl:p-24 lg:w-1/2 flex items-center justify-center bg-gray-950">
       <div className="flex flex-col gap-7">
         <h1 className="font-display text-4xl leading-[2.8rem] font-bold text-white">
-          Los mejores libros 📚 que debes leer{" "}
-          <span className="text-yellow-300"> 1 vez en tu vida</span>
+          The best books 📚 that you should read{" "}
+          <span className="text-yellow-300">1 time in your life</span>
         </h1>
         <p className="text-sm/tight font-medium leading-[1.4rem]   text-gray-300">
-          Encuentra los mejores 10 libros que debes leer para tu crecimineto
-          personal
+        Discover the <span className="text-gray-300 font-semibold">10  </span>essential books to boost your personal growth,Immerse yourself in the fascinating world of reading and discover the books that will transform your life! On our website, we offer you a careful selection of the best <span className="text-yellow-300">10 books </span>📗that you must read to reach your full potential.
         </p>
         <div class="flex flex-wrap gap-x-1 gap-y-3 justify-center md:justify-start">
           <a
@@ -36,19 +35,18 @@ export default function LadoIzquiero() {
           >
             <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
             <HiMail className="h-5 w-5" />
-            <span class="self-baseline text-white font-medium">Correo</span>
+            <span class="self-baseline text-white font-medium">Mail</span>
           </a>
         </div>
         <div>
-            <div>
-              <img
-                class="h-auto max-w-full rounded-md cursor-pointer"
-                src="/img/img.jpg"
-                alt=""
-              />
-            </div>
+          <div>
+            <img
+              class="h-auto max-w-full rounded-md cursor-pointer"
+              src="/img/img.jpg"
+              alt=""
+            />
+          </div>
         </div>
-       
       </div>
     </section>
   );
