@@ -30,7 +30,7 @@ export default function LadoDerecho() {
   };
 
   return (
-    <div className="h-screen w-full lg:overflow-y-auto p-6 px-24 xl:w-1/2 bg-white">
+    <div className="h-screen w-full lg:overflow-y-auto p-6 lg:px-24  xl:w-1/2 bg-white">
       <div className="py-10">
        <ButtonGroup
         handleNavegacion={handleNavegacion}
