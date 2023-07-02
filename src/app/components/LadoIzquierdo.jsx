@@ -17,7 +17,7 @@ export default function LadoIzquiero() {
           of the best <span className="text-yellow-300">10 books </span>📗that
           you must read to reach your full potential.
         </p>
-        <div class="flex flex-wrap gap-x-1 gap-y-3 justify-center md:justify-start">
+        <div class="flex flex-wrap">
           <a
             class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-3 flex-none"
             href="https://github.com/midudev/noticias.dev"
