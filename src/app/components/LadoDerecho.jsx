@@ -30,15 +30,19 @@ export default function LadoDerecho() {
   };
 
   return (
-    <div className="h-screen w-full lg:overflow-y-auto p-6 xl:w-1/2 bg-white">
+    <div className="h-screen w-full lg:overflow-y-auto p-6 px-24 xl:w-1/2 bg-white">
+      <div className="py-10">
+       <ButtonGroup
+        handleNavegacion={handleNavegacion}
+        indiceElement={indiceElement}
+        setIndiceElement={setIndiceElement}
+      />
+      </div>
       <MDXProvider components={components}>
         {" "}
         {componetElement[indiceElement]}
       </MDXProvider>
-      <ButtonGroup
-        handleNavegacion={handleNavegacion}
-        setIndiceElement={setIndiceElement}
-      />
+     
     </div>
   );
 }
