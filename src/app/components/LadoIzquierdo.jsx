@@ -3,7 +3,7 @@ import { HiMail } from "react-icons/hi";
 
 export default function LadoIzquiero() {
   return (
-    <section className="h-screen w-full xl:pr-56 p-6 xl:p-24 lg:w-1/2 flex items-center justify-center bg-gray-950">
+    <section className="h-screen left-side w-full  xl:pr-56 p-6 xl:p-24 lg:w-1/2 flex items-center justify-center bg-gray-950">
       <div className="flex flex-col gap-7">
        
         <h1 className="font-display text-4xl leading-[2.8rem] font-bold text-white">

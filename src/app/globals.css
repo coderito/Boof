@@ -21,3 +21,9 @@ li {
     list-style-type: circle;
     margin: 0.8rem;
 }
+
+.two-column-layout {
+    height: 100vh;
+    width: 100%;
+  }
+  

@@ -1,8 +1,8 @@
 "use client";
 
 import PadreRicoPadrePobre from "../content/01-padre-rico-padre-pobre.mdx";
-import HabitosAtomicos from "../content/02-habitos-atomicos.mdx"
-import SiLoCreasLoCreas from "../content/03-si-lo-creas-lo-creas.mdx"
+import HabitosAtomicos from "../content/02-habitos-atomicos.mdx";
+import SiLoCreasLoCreas from "../content/03-si-lo-creas-lo-creas.mdx";
 
 import { H2 } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
@@ -14,21 +14,31 @@ const components = {
 };
 
 export default function LadoDerecho() {
-  const componetElement = [<PadreRicoPadrePobre />, <HabitosAtomicos />, <SiLoCreasLoCreas/>];
+  const componetElement = [
+    <PadreRicoPadrePobre />,
+    <HabitosAtomicos />,
+    <SiLoCreasLoCreas />,
+  ];
 
   const [indiceElement, setIndiceElement] = useState(0);
 
   const handleNavegacion = (incremento) => {
     const nuevoIndice = indiceElement + incremento;
     if (nuevoIndice >= 0 && nuevoIndice < componetElement.length) {
-        setIndiceElement(nuevoIndice);
+      setIndiceElement(nuevoIndice);
     }
   };
 
   return (
-    <div className="h-full w-full pt-20  xl:pr-56 p-6 xl:p-16 lg:w-1/2 flex items-center md:flex-col justify-center flex-col-reverse content-between bg-white gap-14">
-      <MDXProvider components={components}> {componetElement[indiceElement]}</MDXProvider>
-      <ButtonGroup handleNavegacion={handleNavegacion} setIndiceElement={setIndiceElement}/>
+    <div className="h-screen w-full lg:overflow-y-auto p-6 xl:w-1/2 bg-white">
+      <MDXProvider components={components}>
+        {" "}
+        {componetElement[indiceElement]}
+      </MDXProvider>
+      <ButtonGroup
+        handleNavegacion={handleNavegacion}
+        setIndiceElement={setIndiceElement}
+      />
     </div>
   );
 }
