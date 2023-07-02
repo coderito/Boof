@@ -9,8 +9,13 @@ export default function LadoIzquiero() {
           The best books 📚 that you should read{" "}
           <span className="text-yellow-300">1 time in your life</span>
         </h1>
-        <p className="text-sm/tight font-medium leading-[1.4rem]   text-gray-300">
-        Discover the <span className="text-gray-300 font-semibold">10  </span>essential books to boost your personal growth,Immerse yourself in the fascinating world of reading and discover the books that will transform your life! On our website, we offer you a careful selection of the best <span className="text-yellow-300">10 books </span>📗that you must read to reach your full potential.
+        <p className="text-sm/tight font-medium leading-[1.4rem]  text-gray-300 text-justify">
+          Discover the <span className="text-gray-300 font-semibold">10 </span>
+          essential books to boost your personal growth, Immerse yourself in the
+          fascinating world of reading and discover the books that will
+          transform your life! On our website, we offer you a careful selection
+          of the best <span className="text-yellow-300">10 books </span>📗that
+          you must read to reach your full potential.
         </p>
         <div class="flex flex-wrap gap-x-1 gap-y-3 justify-center md:justify-start">
           <a
