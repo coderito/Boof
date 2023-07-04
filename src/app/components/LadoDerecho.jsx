@@ -5,6 +5,7 @@ import HabitosAtomicos from "../content/02-habitos-atomicos.mdx";
 import SiLoCreesLoCreas from "../content/03-si-lo-crees-lo-creas.mdx";
 import ElHombreEnBuscaDeSentido from "../content/04-el-hombre-en-busca-de-sentido.mdx"
 import Los7HabitosDeLaGenteAltamenteEfetiva from "../content/05-los-7-habitos-de-la-gente-altamente-efectiva.mdx"
+import InteligenciEmocional from "../content/06-inteligencia-emocional.mdx"
 
 import { H2 } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
@@ -21,7 +22,8 @@ export default function LadoDerecho() {
     <HabitosAtomicos />,
     <SiLoCreesLoCreas />,
     <ElHombreEnBuscaDeSentido />,
-    <Los7HabitosDeLaGenteAltamenteEfetiva />
+    <Los7HabitosDeLaGenteAltamenteEfetiva />,
+    <InteligenciEmocional />
   ];
 
   const [indiceElement, setIndiceElement] = useState(0);
