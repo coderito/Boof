@@ -6,7 +6,7 @@ export default function LadoIzquiero() {
     <section className="h-screen left-side w-full pt-10 xl:pr-56 p-6 xl:p-24 lg:w-1/2 flex items-center justify-center bg-gray-950">
       <div className="flex flex-col gap-7">
        
-        <h1 className="font-display text-4xl leading-[2.8rem] font-bold text-white">
+        <h1 className="font-display text-3xl lg:text-5xl text-center lg:text-start leading-[2.5rem] lg:leading-[3rem] font-bold text-white">
           The best books 📚 that you should read{" "}
           <span className="text-yellow-300">1 time in your life</span>
         </h1>
@@ -19,7 +19,7 @@ export default function LadoIzquiero() {
           of the best <span className="text-yellow-300">10 books </span>📗that
           you must read to reach your full potential.
         </p>
-        <div>
+        <div className="border-slate-800">
           <img
             class="h-auto max-w-full rounded-md cursor-pointer"
             src="/img/img.jpg"
