@@ -4,6 +4,7 @@ import PadreRicoPadrePobre from "../content/01-padre-rico-padre-pobre.mdx";
 import HabitosAtomicos from "../content/02-habitos-atomicos.mdx";
 import SiLoCreesLoCreas from "../content/03-si-lo-crees-lo-creas.mdx";
 import ElHombreEnBuscaDeSentido from "../content/04-el-hombre-en-busca-de-sentido.mdx"
+import Los7HabitosDeLaGenteAltamenteEfetiva from "../content/05-los-7-habitos-de-la-gente-altamente-efectiva.mdx"
 
 import { H2 } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
@@ -19,7 +20,8 @@ export default function LadoDerecho() {
     <PadreRicoPadrePobre />,
     <HabitosAtomicos />,
     <SiLoCreesLoCreas />,
-    <ElHombreEnBuscaDeSentido />
+    <ElHombreEnBuscaDeSentido />,
+    <Los7HabitosDeLaGenteAltamenteEfetiva />
   ];
 
   const [indiceElement, setIndiceElement] = useState(0);
