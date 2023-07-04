@@ -11,7 +11,7 @@ export default function LadoIzquiero() {
           <span className="text-yellow-300">1 time in your life</span>
         </h1>
 
-        <p className="text-sm/tight font-medium leading-[1.4rem]  text-gray-300 text-justify">
+        <p className="text-sm/tight font-medium leading-[1.4rem] text-center   text-gray-300 lg:text-justify">
           Discover the <span className="text-gray-300 font-semibold">10 </span>
           essential books to boost your personal growth, Immerse yourself in the
           fascinating world of reading and discover the books that will
