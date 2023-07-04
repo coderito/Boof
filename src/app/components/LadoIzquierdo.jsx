@@ -26,7 +26,7 @@ export default function LadoIzquiero() {
             alt=""
           />
         </div>
-        <div class="flex flex-wrap">
+        <div class="flex flex-wrap justify-center lg:justify-start">
           <a
             class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-3 flex-none"
             href="https://github.com/midudev/noticias.dev"
