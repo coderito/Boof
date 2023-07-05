@@ -7,6 +7,7 @@ import ElHombreEnBuscaDeSentido from "../content/04-el-hombre-en-busca-de-sentid
 import Los7HabitosDeLaGenteAltamenteEfetiva from "../content/05-los-7-habitos-de-la-gente-altamente-efectiva.mdx"
 import InteligenciEmocional from "../content/06-inteligencia-emocional.mdx"
 import PensarRapidoPensarDespacio from "../content/07-pensar-rapido-pensar-despacio.mdx"
+import ElPoderDelAhora from "../content/08-el-poder-del-ahora.mdx"
 
 import { H2 } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
@@ -25,7 +26,8 @@ export default function LadoDerecho() {
     <ElHombreEnBuscaDeSentido />,
     <Los7HabitosDeLaGenteAltamenteEfetiva />,
     <InteligenciEmocional />,
-    <PensarRapidoPensarDespacio />
+    <PensarRapidoPensarDespacio />,
+    <ElPoderDelAhora />
   ];
 
   const [indiceElement, setIndiceElement] = useState(0);
