@@ -8,6 +8,8 @@ import Los7HabitosDeLaGenteAltamenteEfetiva from "../content/05-los-7-habitos-de
 import InteligenciEmocional from "../content/06-inteligencia-emocional.mdx"
 import PensarRapidoPensarDespacio from "../content/07-pensar-rapido-pensar-despacio.mdx"
 import ElPoderDelAhora from "../content/08-el-poder-del-ahora.mdx"
+import ElSutilArteDeQueTeImpoteUnCaraj from "../content/09-el-sutil-arte-de-que-te-importe-un-carajo.mdx"
+import ElArteDeHacerDinero from "../content/10-el-arte-de-hacer-dinero.mdx"
 
 import { H2 } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
@@ -27,7 +29,9 @@ export default function LadoDerecho() {
     <Los7HabitosDeLaGenteAltamenteEfetiva />,
     <InteligenciEmocional />,
     <PensarRapidoPensarDespacio />,
-    <ElPoderDelAhora />
+    <ElPoderDelAhora />,
+    <ElSutilArteDeQueTeImpoteUnCaraj />,
+    <ElArteDeHacerDinero />
   ];
 
   const [indiceElement, setIndiceElement] = useState(0);
