@@ -4,7 +4,7 @@ import LadoIzquiero from "./components/LadoIzquierdo";
 const Home = () => {
   return (
     <>
-      <div className="w-screen two-column-layout flex flex-col lg:flex-row">
+      <div className="w-screen flex flex-col lg:flex-row">
         <LadoIzquiero />
         <LadoDerecho />
       </div>
