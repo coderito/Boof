@@ -13,5 +13,5 @@ export const H2 = ({ children }) => {
   };
 
 export const STRONG = ({children}) => {
-  return <strong className="tracking-wide font-extrabold">{children}</strong>;
+  return <strong className="tracking-wide font-extrabold text-blue-500 text-[0.95rem]">{children}</strong>;
 }
