@@ -11,6 +11,9 @@ import ElPoderDelAhora from "../content/08-el-poder-del-ahora.mdx"
 import ElSutilArteDeQueTeImpoteUnCaraj from "../content/09-el-sutil-arte-de-que-te-importe-un-carajo.mdx"
 import ElArteDeHacerDinero from "../content/10-el-arte-de-hacer-dinero.mdx"
 
+import Image from 'next/image'
+import logo from "../../app/icon.ico"
+
 import { H2, STRONG } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
 import ButtonGroup from "./ButtonGroup";
@@ -47,6 +50,7 @@ export default function LadoDerecho() {
   return (
     <div className="h-screen w-full lg:overflow-y-auto p-6 lg:px-24  xl:w-1/2 bg-white">
       <div className="py-10">
+      <Image src={logo} width={100} height={100} className="rounded-sm text-center	"/>
        <ButtonGroup
         handleNavegacion={handleNavegacion}
         indiceElement={indiceElement}
