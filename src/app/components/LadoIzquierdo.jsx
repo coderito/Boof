@@ -1,5 +1,4 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { HiMail } from "react-icons/hi";
 
 export default function LadoIzquiero() {
   return (
