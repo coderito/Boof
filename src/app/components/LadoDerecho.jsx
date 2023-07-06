@@ -11,13 +11,14 @@ import ElPoderDelAhora from "../content/08-el-poder-del-ahora.mdx"
 import ElSutilArteDeQueTeImpoteUnCaraj from "../content/09-el-sutil-arte-de-que-te-importe-un-carajo.mdx"
 import ElArteDeHacerDinero from "../content/10-el-arte-de-hacer-dinero.mdx"
 
-import { H2 } from "../components-mdx/mdxComponents";
+import { H2, STRONG } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
 import ButtonGroup from "./ButtonGroup";
 import { useState } from "react";
 
 const components = {
   h2: H2,
+  strong: STRONG,
 };
 
 export default function LadoDerecho() {
