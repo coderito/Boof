@@ -11,3 +11,7 @@ export const H2 = ({ children }) => {
     delaySpeed={1000}
   /> </h2>;
   };
+
+export const STRONG = ({children}) => {
+  return <strong className="tracking-wide font-extrabold">{children}</strong>;
+}
