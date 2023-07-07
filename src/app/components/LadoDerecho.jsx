@@ -12,7 +12,7 @@ import ElSutilArteDeQueTeImpoteUnCaraj from "../content/09-el-sutil-arte-de-que-
 import ElArteDeHacerDinero from "../content/10-el-arte-de-hacer-dinero.mdx"
 
 import Image from 'next/image'
-import logo from "../../app/icon.ico"
+import logo from "../../../public/icon.png"
 
 import { H2, STRONG } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
