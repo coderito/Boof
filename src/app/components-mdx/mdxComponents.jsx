@@ -15,3 +15,7 @@ export const H2 = ({ children }) => {
 export const STRONG = ({children}) => {
   return <strong className="tracking-wide text-blue-500 text-[0.95rem]">{children}</strong>;
 }
+
+export const BLOCKQUOTE = ({children}) => {
+  return <blockquote className="border border-blue-500 rounded-sm w-100 p-2">{children}</blockquote>;
+}
