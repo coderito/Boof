@@ -22,7 +22,8 @@ export default function LadoIzquiero() {
         <div class="flex flex-wrap">
           <a
             class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-3 flex-none"
-            href="https://github.com/midudev/noticias.dev"
+            href="https://github.com/itodev-source/libros.dev"
+            target="_blank"
           >
             <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
             <AiFillGithub className="flex-none h-4 w-4" />
@@ -30,7 +31,8 @@ export default function LadoIzquiero() {
           </a>
           <a
             class="group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-sky-300 gap-x-3 flex-none"
-            href="/rss/feed.xml"
+            href="https://www.linkedin.com/in/juan-eulufi/"
+            target="_blank"
           >
             <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
             <AiFillLinkedin className="flex-none h-4 w-4" />
