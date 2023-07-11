@@ -17,5 +17,9 @@ export const STRONG = ({children}) => {
 }
 
 export const BLOCKQUOTE = ({children}) => {
-  return <blockquote className="border border-blue-500 rounded-sm w-100 p-2">{children}</blockquote>;
+  return <blockquote className="border border-indigo-300 rounded-lg w-100 p-4 drop-shadow-sm">{children}</blockquote>;
+}
+
+export const P = ({children}) => {
+  return <p className="tracking-wide [word-spacing:4px] text-gray-500 text-sm">{children}</p>;
 }
