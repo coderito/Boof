@@ -14,7 +14,7 @@ import ElArteDeHacerDinero from "../content/10-el-arte-de-hacer-dinero.mdx";
 import Image from "next/image";
 import logo from "../../../public/icon.png";
 
-import { H2, STRONG, BLOCKQUOTE } from "../components-mdx/mdxComponents";
+import { H2, STRONG, BLOCKQUOTE, P } from "../components-mdx/mdxComponents";
 import { MDXProvider } from "@mdx-js/react";
 import ButtonGroup from "./ButtonGroup";
 import { useState } from "react";
@@ -22,7 +22,8 @@ import { useState } from "react";
 const components = {
   h2: H2,
   strong: STRONG,
-  blockquote : BLOCKQUOTE
+  blockquote : BLOCKQUOTE,
+  p: P
 };
 
 export default function LadoDerecho() {
