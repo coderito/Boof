@@ -22,8 +22,8 @@ import { useState } from "react";
 const components = {
   h2: H2,
   strong: STRONG,
-  blockquote : BLOCKQUOTE,
-  p: P
+  blockquote: BLOCKQUOTE,
+  p: P,
 };
 
 export default function LadoDerecho() {
@@ -50,7 +50,7 @@ export default function LadoDerecho() {
   };
 
   return (
-    <div className="h-screen w-full lg:overflow-y-auto p-6 lg:px-24  xl:w-1/2 bg-white">
+    <div className="h-screen w-full lg:overflow-y-auto p-6   lg:px-24  xl:w-1/2 bg-white">
       <div className="py-10">
         <Image
           src={logo}
